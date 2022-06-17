@@ -67,7 +67,7 @@ table {
 }
 
 .NoteAPP {
-    background-color:hsl(27, 86%, 65%);
+    background-color:hsl(27, 100%, 64%);
     padding: 2rem;
     h1{
         width: fit-content;
@@ -78,7 +78,7 @@ table {
     }
 }
 .exp {
-    background-color:rgb(199, 60, 17);
+    background-color:rgb(230, 105, 66);
     color: white;
     font-weight: 600;
     font-size: 1rem;
@@ -107,12 +107,14 @@ table {
 
 .notes__list-item {
     cursor: pointer;
+    padding: 1rem;
 }
 
 .notes__list-item--selected {
     background: #eeeeee;
     border-radius: 7px;
     font-weight: bold;
+    
 }
 
 .notes__small-title,
